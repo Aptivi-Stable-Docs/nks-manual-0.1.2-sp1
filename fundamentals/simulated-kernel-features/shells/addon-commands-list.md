@@ -407,9 +407,10 @@ You can make your own precious and epic themes by using the following commands:
 
 You can get detailed time info by using the following commands:
 
-| Commands      | Arguments and Switches |
-| ------------- | ---------------------- |
-| `gettimeinfo` | `[-now] <date>`        |
+| Commands      | Arguments and Switches              |
+| ------------- | ----------------------------------- |
+| `gettimeinfo` | `[-now] <date>`                     |
+| `expiry`      | `[-implicit] <production> <expiry>` |
 
 ### Timers
 
