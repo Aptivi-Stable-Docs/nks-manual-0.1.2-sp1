@@ -76,24 +76,3 @@ If you're running Arch, you can install Nitrocid KS using the Arch Linux AUR. Ju
 3. Start `ks` (appending the same suffix above, like `ks-27`), or use your app drawer to find `Nitrocid KS` corresponding to your installed mod API version
 
 You can't install the release version and the cutting-edge (those with the `-git` suffix) version at the same time, since files conflict.
-
-## Bleeding-edge
-
-Bleeding-edge builds usually come from building the development branch of the kernel, and they usually contain bugs and other untested features.
-
-If you're a tester to such software, please follow the steps on your Linux machine. Please be sure that you're signed in to your GitHub account.
-
-1. Open the [canary release preparation workflow](https://github.com/Aptivi/Nitrocid/actions/workflows/release-canary.yml)
-2. Select the most recent build
-3. Scroll down to Artifacts and click on the `nks-build` button to download the ZIP file.
-4. Extract the file. Be sure that you have the latest version of 7-Zip or your favorite archive manager installed.
-5. Open your favorite terminal emulator, like Konsole, and change the working directory to a folder containing the Nitrocid KS executable
-6. Execute `dotnet Nitrocid.dll` to start the kernel
-
-{% hint style="info" %}
-For Arch users, just follow the above steps, but install the `-git` suffix package like this:
-
-* `yay -Sy nitrocid-27-git`
-
-You don't need to sign in to your GitHub account in this case.
-{% endhint %}

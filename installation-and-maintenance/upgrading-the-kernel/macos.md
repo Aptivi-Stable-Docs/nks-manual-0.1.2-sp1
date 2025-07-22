@@ -5,10 +5,6 @@ icon: apple
 
 # macOS
 
-{% hint style="warning" %}
-The upgrade instructions is based on pre-release version of Nitrocid KS, and the system requirements may change during the development.
-{% endhint %}
-
 The only way to upgrade your kernel in macOS is to unpack the updated kernel files manually. This method also works for bleeding-edge builds, though you have to use unzip instead. To upgrade, follow these steps:
 
 1. Download the latest release ZIP file from [this page](https://github.com/Aptivi/Kernel-Simulator/releases).
